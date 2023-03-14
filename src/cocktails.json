@@ -1,0 +1,99 @@
+{
+    "cocktails": [
+      {
+        "name": "Mojito",
+        "ingredients": [
+          {
+            "name": "lime juice",
+            "quantity": 1,
+            "unit": "unit"
+          },
+          {
+            "name": "granulated sugar",
+            "quantity": 1,
+            "unit": "tsp"
+          },
+          {
+            "name": "mint leaves",
+            "quantity": "small handful",
+            "unit": "unit",
+            "extra": "plus extra sprig to serve"
+          },
+          {
+            "name": "white rum",
+            "quantity": 60,
+            "unit": "ml"
+          },
+          {
+            "name": "soda water",
+            "quantity": "to taste",
+            "unit": "unit"
+          }
+        ],
+        "description": "Mojito is a traditional Cuban punch. The cocktail often consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavours is intended to complement the rum, and has made the mojito a popular summer drink."
+      },
+      {
+        "name": "Cosmopolitan",
+        "ingredients": [
+          {
+            "name": "vodka",
+            "quantity": 45,
+            "unit": "ml"
+          },
+          {
+            "name": "triple sec",
+            "quantity": 15,
+            "unit": "ml"
+          },
+          {
+            "name": "cranberry juice",
+            "quantity": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "lime juice",
+            "quantity": 15,
+            "unit": "ml"
+          },
+          {
+            "name": "orange peel",
+            "quantity": "twist of",
+            "unit": "unit"
+          }
+        ],
+        "description": "The Cosmopolitan, or Cosmo, is a cocktail made with vodka, triple sec, cranberry juice, and fresh lime juice. It is typically garnished with a twist of orange peel. The Cosmo gained popularity in the 1990s, particularly after being featured on the television show 'Sex and the City.'"
+      },
+      {
+        "name": "Old Fashioned",
+        "ingredients": [
+          {
+            "name": "sugar cube",
+            "quantity": 1,
+            "unit": "unit"
+          },
+          {
+            "name": "angostura bitters",
+            "quantity": 2,
+            "unit": "dashes"
+          },
+          {
+            "name": "water",
+            "quantity": "splash of",
+            "unit": "unit"
+          },
+          {
+            "name": "rye whiskey",
+            "quantity": 60,
+            "unit": "ml"
+          },
+          {
+            "name": "orange peel",
+            "quantity": "twist of",
+            "unit": "unit"
+          }
+        ],
+        "description": "The Old Fashioned is a classic cocktail made by muddling a sugar cube with bitters and a splash of water, then adding whiskey and ice. It is typically garnished with a twist of orange peel. The Old Fashioned is a simple and timeless cocktail that has been popular for over a century."
+      }
+    ]
+  }
+  
