@@ -26,6 +26,16 @@ function Navbar() {
           Directory
         </NavLink>
       </li>
+      <li className="nav-item nav3">
+        <NavLink
+          to="locator"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Locator
+        </NavLink>
+      </li>
     </ul>
   );
 }

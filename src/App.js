@@ -5,6 +5,7 @@ import Home from './components/Pages/Home';
 import Footer from "./components/Footer"
 import Wrapper from './components/Wrapper';
 import Directory from './components/Pages/Directory'
+import Locator from './components/Pages/Locator'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="directory" element={<Directory/>} />
+            <Route path="locator" element={<Locator/>} />
           </Routes>
         </Wrapper>
         <Footer />
