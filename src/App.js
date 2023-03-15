@@ -1,9 +1,10 @@
 import './App.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import Home from './components/Home';
+import Home from './components/Pages/Home';
 import Footer from "./components/Footer"
 import Wrapper from './components/Wrapper';
+import Directory from './components/Pages/Directory'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home/>} />
+            <Route path="directory" element={<Directory/>} />
           </Routes>
         </Wrapper>
         <Footer />
