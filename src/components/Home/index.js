@@ -1,10 +1,15 @@
 import React from 'react';
 import "./style.css";
+import Hero from '../Hero';
+import Input from '../Input';
 
 function Home() {
     return (
-        <p>home placeholder</p>
-           )
+        <div>
+        <Hero />
+        <Input />
+        </div>
+    )
 }
 
 export default Home;
