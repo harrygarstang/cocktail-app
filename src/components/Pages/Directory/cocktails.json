@@ -137,7 +137,7 @@
           "name": "lime juice",
           "quantity": 1,
           "unit": "tbsp"
-        },
+        }
       ],
       "description": "Fresh, fruity and easy drinking, this classic 1980s cocktail features vodka, cranberry juice, peach schnapps and lime. It's made for summer sipping – preferably by the pool. It balances the sweetness of peach and cranberry with tart, zingy lime, making a simple and delicious tipple."
   },
@@ -172,10 +172,9 @@
           "name": "coconut cream",
           "quantity": 2,
           "unit": "oz"
-        },
-  
+        }
       ],
       "description": "Made to resemble a real-life volcano, this creamy tropical cocktail slushy is chock-full of rum, strawberries, pineapple juice, and coconut. The lava flow effect involves blending the drink in two stages. Serve it in your favorite tiki glass for paradise in a cup from wherever you are."
-  },  
+  }
   ]
 }
