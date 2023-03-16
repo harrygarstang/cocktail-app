@@ -1,0 +1,180 @@
+{
+  "cocktails": [
+    {
+      "name": "Mojito",
+      "ingredients": [
+        {
+          "name": "lime juice",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "name": "granulated sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "mint leaves",
+          "quantity": "small handful",
+          "unit": "unit",
+          "extra": "plus extra sprig to serve"
+        },
+        {
+          "name": "white rum",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "soda water",
+          "quantity": "to taste",
+          "unit": "unit"
+        }
+      ],
+      "description": "Mojito is a traditional Cuban punch. It consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavours complements the rum, making it a popular summer drink."
+    },
+    {
+      "name": "Cosmopolitan",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "quantity": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "triple sec",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "cranberry juice",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "lime juice",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "orange peel",
+          "quantity": "twist of",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Cosmopolitan, or Cosmo, is a cocktail made with vodka, triple sec, cranberry juice, and fresh lime juice, garnished with a twist of orange peel. It gained popularity in the 1990s, particularly after being featured on the television show 'Sex and the City.'"
+    },
+    {
+      "name": "Old Fashioned",
+      "ingredients": [
+        {
+          "name": "sugar cube",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "name": "angostura bitters",
+          "quantity": 2,
+          "unit": "dashes"
+        },
+        {
+          "name": "water",
+          "quantity": "splash of",
+          "unit": "unit"
+        },
+        {
+          "name": "rye whiskey",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "orange peel",
+          "quantity": "twist of",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Old Fashioned is a classic cocktail made by muddling a sugar cube with bitters and a splash of water, then adding whiskey and ice, garnished with a twist of orange peel. It is a simple and timeless cocktail, popular for over a century."
+    },
+    {
+      "name": "Piña Colada",
+      "ingredients": [
+        {
+          "name": "white rum",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "pineapple juice",
+          "quantity": 75,
+          "unit": "ml"
+        },
+        {
+          "name": "coconut cream",
+          "quantity": 50,
+          "unit": "ml"
+        }
+      ],
+      "description": "Transport yourself to the tropics with an exotic Piña colada. This creamy rum cocktail is made with fresh coconut cream and sharp pineapple juice to create a perfectly balanced drink that'll remind you of your favourite summer holiday. Best served with a funky umbrella for eye-candy appeal."
+  },
+  {
+      "name": "Woo Woo",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "name": "peach schnapps",
+          "quantity": 25,
+          "unit": "ml"
+        },
+        {
+          "name": "cranberry juice",
+          "quantity": 75,
+          "unit": "ml"
+        },
+        {
+          "name": "lime juice",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "description": "Fresh, fruity and easy drinking, this classic 1980s cocktail features vodka, cranberry juice, peach schnapps and lime. It's made for summer sipping – preferably by the pool. It balances the sweetness of peach and cranberry with tart, zingy lime, making a simple and delicious tipple."
+  },
+  {
+      "name": "Lava Flow Cocktail",
+      "ingredients": [
+        {
+          "name": "light rum",
+          "quantity": 1,
+          "unit": "oz"
+        },
+        {
+          "name": "Malibu coconut rum",
+          "quantity": 1,
+          "unit": "oz"
+        },
+        {
+          "name": "strawberries",
+          "quantity": 2,
+          "unit": "oz"
+        },
+        {
+          "name": "banana",
+          "quantity": 1,
+          "unit": "fruit"
+        },
+        {
+          "name": "pineapple juice",
+          "quantity": 2,
+          "unit": "oz"
+        },      {
+          "name": "coconut cream",
+          "quantity": 2,
+          "unit": "oz"
+        }
+      ],
+      "description": "Made to resemble a real-life volcano, this creamy tropical cocktail slushy is chock-full of rum, strawberries, pineapple juice, and coconut. The lava flow effect involves blending the drink in two stages. Serve it in your favorite tiki glass for paradise in a cup from wherever you are."
+  }
+  ]
+}
