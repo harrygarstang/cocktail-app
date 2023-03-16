@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+import Input from "../../Input";
 
 
 
 function Home() {
   return (
-      <p> home placeholder </p>
+      <Input />
   );
 }
 
