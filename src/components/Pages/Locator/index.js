@@ -12,11 +12,13 @@ function Locator() {
 
     //async function to search the bars in the provided location
     const searchBars = async () => {
+        console.log("searchBars function called"); // Debugging statement
         try {
             const response = await axios.get(
                 `http://localhost:3001/search?location=${location}`
             );
-
+            console.log("Response received:", response); // Debugging statement
+    
             //updating the bars' list with the response received
             setBars(response.data.results);
         } catch (error) {
