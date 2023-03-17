@@ -1,7 +1,7 @@
 // Require the necessary dependencies
-const express = require("express"); 
-const cors = require("cors"); 
-const axios = require("axios"); 
+const express = require("express");
+const cors = require("cors");
+const axios = require("axios");
 
 // Create a new instance of the Express application
 const app = express();
@@ -14,7 +14,7 @@ app.get("/search", async (req, res) => {
   try {
     // Send a GET request to the Google Places API using the axios library
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cocktail+bars+in+${req.query.location}&key=AIzaSyBAO0rpLrepaNf2wB6rHE-J644UDKOB_lU`
+      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cocktail+bars+in+${req.query.location}&key=placeholder&maxresults=10`
     );
 
     // If  request is successful, send response data as JSON object
