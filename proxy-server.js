@@ -14,7 +14,7 @@ app.get("/search", async (req, res) => {
   try {
     // Send a GET request to the Google Places API using the axios library
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cocktail+bars+in+${req.query.location}&key=YOUR_API_KEY_HERE`
+      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cocktail+bars+in+${req.query.location}&key=AIzaSyBAO0rpLrepaNf2wB6rHE-J644UDKOB_lU`
     );
 
     // If  request is successful, send response data as JSON object
