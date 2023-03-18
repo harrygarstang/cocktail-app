@@ -30,19 +30,28 @@ function Directory() {
               <Card.ImgOverlay>
                 <div>
                   <Card.Title>{cocktail.name}</Card.Title>
-                  <Card.Text>{cocktail.description}</Card.Text>
                 </div>
-                <Card.Footer>
-                  <ul>
-                    {cocktail.ingredients.map((ingredient, i) => (
-                      <li key={i}>
-                        {ingredient.quantity} {ingredient.unit} {ingredient.name}
-                        {ingredient.extra && ` (${ingredient.extra})`}
-                      </li>
-                    ))}
-                  </ul>
-                </Card.Footer>
               </Card.ImgOverlay>
+              <Card.Body>
+                <Card.Text>{cocktail.description}</Card.Text>
+                <Card.Text className="mb-0">
+                  <strong>Ingredients:</strong>
+                </Card.Text>
+                <div
+                  className="ingredients-scrollbar"
+                  style={{
+                    maxHeight: "100px",
+                    overflowY: "scroll",
+                    paddingRight: "5px",
+                  }}
+                >
+                  {cocktail.ingredients.map((ingredient, idx) => (
+                    <Card.Text key={idx}>
+                      {ingredient.quantity} {ingredient.unit} {ingredient.name}
+                    </Card.Text>
+                  ))}
+                </div>
+              </Card.Body>
             </Card>
           </Col>
         ))}
