@@ -15,8 +15,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
-  }
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
   
   .hero * {
     position: relative;
