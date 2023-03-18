@@ -27,7 +27,10 @@
     flex-wrap: wrap;
     pointer-events: none; 
   }
-  
+  .card-img {
+    height: 250px;
+    object-fit: cover;
+  }
   .card-img-overlay h5,
   .card-img-overlay p {
     margin-bottom: 0.5rem;
