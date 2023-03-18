@@ -9,6 +9,7 @@ import pinaColadaImg from "./images/pina-colada.jpg";
 import wooWooImg from "./images/woowoo.jpg";
 import lavaFlowImg from "./images/lava-flow.jpg";
 
+// Creating an array of the images as a workaround so we can retain the JSON file rather than using require() 
 const images = {
   "mojito.jpg": mojitoImg,
   "cosmopolitan.jpg": cosmopolitanImg,
@@ -16,6 +17,9 @@ const images = {
   "pina-colada.jpg": pinaColadaImg,
   "woowoo.jpg": wooWooImg,
   "lava-flow.jpg": lavaFlowImg,
+  "daiquiri.jpg": daiquiriImg,
+  "espresso.jpg": espressoImg,
+  "mint-julep.jpg": mintjulepImg,
 };
 
 function Directory() {

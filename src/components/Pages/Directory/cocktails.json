@@ -234,7 +234,7 @@
         }
       ],
       "description": "The Mint Julep is a refreshing bourbon cocktail that is traditionally served at the Kentucky Derby. It is made by muddling mint leaves with sugar and water, then filling the glass with crushed ice and topping it off with bourbon.",
-      "image": "placeholder.jpg"
+      "image": "mint-julep.jpg"
     },
     {
       "name": "Tequila Sunrise",
@@ -264,7 +264,7 @@
         }
       ],
       "description": "The Tequila Sunrise is a bright, citrusy cocktail made with tequila, orange juice, and grenadine. The grenadine creates a beautiful sunrise effect in the glass, making it a visually stunning drink that's perfect for warm, sunny days.",
-      "image": "placeholder.jpg"
+      "image": "tequila-sunrise.jpg"
     },
     {
       "name": "Whiskey Sour",
@@ -303,7 +303,7 @@
         }
       ],
       "description": "The Whiskey Sour is a classic cocktail that combines the bold flavor of whiskey with the tangy taste of lemon juice and the sweetness of simple syrup. The optional addition of an egg white creates a smooth, frothy texture.",
-      "image": "placeholder.jpg"
+      "image": "whiskey-sour.jpg"
     },
     {
       "name": "Daiquiri",
@@ -328,7 +328,7 @@
         }
       ],
       "description": "The Daiquiri is a classic, refreshing cocktail made with white rum, fresh lime juice, and simple syrup. Its simplicity allows the flavors of the rum and lime to shine, making it a perfect choice for a warm day or a relaxed evening.",
-      "image": "placeholder.jpg"
+      "image": "daiquiri.jpg"
     },
     {
       "name": "Negroni",
@@ -358,7 +358,7 @@
         }
       ],
       "description": "The Negroni is a classic Italian cocktail that is both bitter and sweet, with a strong, complex flavor profile. Made with equal parts gin, Campari, and sweet vermouth, it is typically served on the rocks and garnished with an orange peel.",
-      "image": "placeholder.jpg"
+      "image": "negroni.jpg"
     },
     {
       "name": "Espresso Martini",
@@ -393,7 +393,7 @@
         }
       ],
       "description": "The Espresso Martini is a sophisticated, caffeinated cocktail that combines the bold flavors of vodka, coffee liqueur, and freshly brewed espresso. It is perfect for those who want an energizing, after-dinner drink that is both elegant and delicious.",
-      "image": "placeholder.jpg"
+      "image": "espresso.jpg"
     }
   ]
 }
