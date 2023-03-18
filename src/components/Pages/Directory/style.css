@@ -2,7 +2,6 @@
     background-color: rgba(255, 20, 147, 0.1);
     border: 1px solid rgba(255, 20, 147, 0.2);
     border-radius: 5px;
-    overflow: hidden;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -18,20 +17,40 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Remove position:absolute */
     background: linear-gradient(
       to bottom,
-      rgba(255, 20, 147, 0.8),
-      rgba(255, 20, 147, 0.6)
+      rgba(255, 20, 147, 0.9),
+      rgba(255, 20, 147, 0.7)
     );
     padding: 1rem;
     color: #fff;
-    /* Add flex-wrap */
     flex-wrap: wrap;
   }
   
   .card-img-overlay h5,
   .card-img-overlay p {
     margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  /* Add the following CSS */
+  .ingredients-scrollbar {
+    max-height: 100px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .ingredients-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .ingredients-scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .ingredients-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 20, 147, 0.6);
+    border-radius: 5px;
   }
   

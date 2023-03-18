@@ -25,12 +25,9 @@ function Directory() {
         {cocktailsData.cocktails.map((cocktail, index) => (
           <Col key={index} sm={12} md={6} lg={4} className="mb-4">
             <Card>
-              {/* Set the image as the background */}
               <Card.Img src={images[cocktail.image]} />
               <Card.ImgOverlay>
-                <div>
-                  <Card.Title>{cocktail.name}</Card.Title>
-                </div>
+                <Card.Title>{cocktail.name}</Card.Title>
               </Card.ImgOverlay>
               <Card.Body>
                 <Card.Text>{cocktail.description}</Card.Text>
@@ -47,7 +44,8 @@ function Directory() {
                 >
                   {cocktail.ingredients.map((ingredient, idx) => (
                     <Card.Text key={idx}>
-                      {ingredient.quantity} {ingredient.unit} {ingredient.name}
+                      {ingredient.quantity} {ingredient.unit}{" "}
+                      {ingredient.name}
                     </Card.Text>
                   ))}
                 </div>
@@ -59,5 +57,6 @@ function Directory() {
     </Container>
   );
 }
+
 
 export default Directory;
