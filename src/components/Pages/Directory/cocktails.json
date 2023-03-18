@@ -27,10 +27,11 @@
         {
           "name": "soda water",
           "quantity": "to taste",
-          "unit": "unit"
+          "unit": "top up with"
         }
       ],
-      "description": "Mojito is a traditional Cuban punch. It consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavours complements the rum, making it a popular summer drink."
+      "description": "Mojito is a traditional Cuban punch. It consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavours complements the rum, making it a popular summer drink.",
+      "image": "mojito.jpg"
     },
     {
       "name": "Cosmopolitan",
@@ -61,7 +62,8 @@
           "unit": "unit"
         }
       ],
-      "description": "The Cosmopolitan, or Cosmo, is a cocktail made with vodka, triple sec, cranberry juice, and fresh lime juice, garnished with a twist of orange peel. It gained popularity in the 1990s, particularly after being featured on the television show 'Sex and the City.'"
+      "description": "The Cosmopolitan, or Cosmo, is a cocktail made with vodka, triple sec, cranberry juice, and fresh lime juice, garnished with a twist of orange peel. It gained popularity in the 1990s, particularly after being featured on the television show 'Sex and the City.'",
+      "image": "cosmopolitan.jpg"
     },
     {
       "name": "Old Fashioned",
@@ -92,7 +94,8 @@
           "unit": "unit"
         }
       ],
-      "description": "The Old Fashioned is a classic cocktail made by muddling a sugar cube with bitters and a splash of water, then adding whiskey and ice, garnished with a twist of orange peel. It is a simple and timeless cocktail, popular for over a century."
+      "description": "The Old Fashioned is a classic cocktail made by muddling a sugar cube with bitters and a splash of water, then adding whiskey and ice, garnished with a twist of orange peel. It is a simple and timeless cocktail, popular for over a century.",
+      "image": "old-fashioned.jpg"
     },
     {
       "name": "Piña Colada",
@@ -113,7 +116,8 @@
           "unit": "ml"
         }
       ],
-      "description": "Transport yourself to the tropics with an exotic Piña colada. This creamy rum cocktail is made with fresh coconut cream and sharp pineapple juice to create a perfectly balanced drink that'll remind you of your favourite summer holiday. Best served with a funky umbrella for eye-candy appeal."
+      "description": "Transport yourself to the tropics with an exotic Piña colada. This creamy rum cocktail is made with fresh coconut cream and sharp pineapple juice to create a perfectly balanced drink that'll remind you of your favourite summer holiday. Best served with a funky umbrella for eye-candy appeal.",
+      "image": "pina-colada.jpg"
   },
   {
       "name": "Woo Woo",
@@ -139,7 +143,8 @@
           "unit": "tbsp"
         }
       ],
-      "description": "Fresh, fruity and easy drinking, this classic 1980s cocktail features vodka, cranberry juice, peach schnapps and lime. It's made for summer sipping – preferably by the pool. It balances the sweetness of peach and cranberry with tart, zingy lime, making a simple and delicious tipple."
+      "description": "Fresh, fruity and easy drinking, this classic 1980s cocktail features vodka, cranberry juice, peach schnapps and lime. It's made for summer sipping – preferably by the pool. It balances the sweetness of peach and cranberry with tart, zingy lime, making a simple and delicious tipple.",
+      "image": "woowoo.jpg"
   },
   {
       "name": "Lava Flow Cocktail",
@@ -174,7 +179,8 @@
           "unit": "oz"
         }
       ],
-      "description": "Made to resemble a real-life volcano, this creamy tropical cocktail slushy is chock-full of rum, strawberries, pineapple juice, and coconut. The lava flow effect involves blending the drink in two stages. Serve it in your favorite tiki glass for paradise in a cup from wherever you are."
+      "description": "Made to resemble a real-life volcano, this creamy tropical cocktail slushy is chock-full of rum, strawberries, pineapple juice, and coconut. The lava flow effect involves blending the drink in two stages. Serve it in your favorite tiki glass for paradise in a cup from wherever you are.",
+      "image": "lava-flow.jpg"
   }
   ]
 }
