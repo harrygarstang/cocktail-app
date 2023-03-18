@@ -8,7 +8,12 @@ import oldFashionedImg from "./images/old-fashioned.jpg";
 import pinaColadaImg from "./images/pina-colada.jpg";
 import wooWooImg from "./images/woowoo.jpg";
 import lavaFlowImg from "./images/lava-flow.jpg";
-
+import daiquiriImg from "./images/daiquiri.jpg"
+import espressoImg from "./images/espresso.jpg"
+import mintjulepImg from "./images/mint-julep.jpg"
+import negroniImg from "./images/negroni.jpg"
+import tequilaImg from "./images/tequila-sunrise.jpg"
+import whiskeyImg from "./images/whiskey-sour.jpg"
 // Creating an array of the images as a workaround so we can retain the JSON file rather than using require() 
 const images = {
   "mojito.jpg": mojitoImg,
@@ -20,6 +25,9 @@ const images = {
   "daiquiri.jpg": daiquiriImg,
   "espresso.jpg": espressoImg,
   "mint-julep.jpg": mintjulepImg,
+  "negroni.jpg": negroniImg,
+  "tequila-sunrise.jpg": tequilaImg,
+  "whiskey-sour.jpg": whiskeyImg,
 };
 
 function Directory() {
