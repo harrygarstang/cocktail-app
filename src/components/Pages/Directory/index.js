@@ -8,7 +8,16 @@ import oldFashionedImg from "./images/old-fashioned.jpg";
 import pinaColadaImg from "./images/pina-colada.jpg";
 import wooWooImg from "./images/woowoo.jpg";
 import lavaFlowImg from "./images/lava-flow.jpg";
+import daiquiriImg from "./images/daiquiri.jpg"
+import espressoImg from "./images/espresso.jpg"
+import mintjulepImg from "./images/mint-julep.jpg"
+import negroniImg from "./images/negroni.jpg"
+import tequilaImg from "./images/tequila-sunrise.jpg"
+import whiskeyImg from "./images/whiskey-sour.jpg"
+// This is an awkward work around having to import all the images individually, 
+// Room for future improvement here 
 
+// Creating an array of the images as a workaround so we can retain the JSON file rather than using require() 
 const images = {
   "mojito.jpg": mojitoImg,
   "cosmopolitan.jpg": cosmopolitanImg,
@@ -16,6 +25,12 @@ const images = {
   "pina-colada.jpg": pinaColadaImg,
   "woowoo.jpg": wooWooImg,
   "lava-flow.jpg": lavaFlowImg,
+  "daiquiri.jpg": daiquiriImg,
+  "espresso.jpg": espressoImg,
+  "mint-julep.jpg": mintjulepImg,
+  "negroni.jpg": negroniImg,
+  "tequila-sunrise.jpg": tequilaImg,
+  "whiskey-sour.jpg": whiskeyImg,
 };
 
 function Directory() {
@@ -25,24 +40,31 @@ function Directory() {
         {cocktailsData.cocktails.map((cocktail, index) => (
           <Col key={index} sm={12} md={6} lg={4} className="mb-4">
             <Card>
-              {/* Set the image as the background */}
               <Card.Img src={images[cocktail.image]} />
               <Card.ImgOverlay>
-                <div>
-                  <Card.Title>{cocktail.name}</Card.Title>
-                  <Card.Text>{cocktail.description}</Card.Text>
-                </div>
-                <Card.Footer>
-                  <ul>
-                    {cocktail.ingredients.map((ingredient, i) => (
-                      <li key={i}>
-                        {ingredient.quantity} {ingredient.unit} {ingredient.name}
-                        {ingredient.extra && ` (${ingredient.extra})`}
-                      </li>
-                    ))}
-                  </ul>
-                </Card.Footer>
+                <Card.Title>{cocktail.name}</Card.Title>
               </Card.ImgOverlay>
+              <Card.Body>
+                <Card.Text>{cocktail.description}</Card.Text>
+                <Card.Text className="mb-0">
+                  <strong>Ingredients:</strong>
+                </Card.Text>
+                <div
+                  className="ingredients-scrollbar"
+                  style={{
+                    maxHeight: "100px",
+                    overflowY: "scroll",
+                    paddingRight: "5px",
+                  }}
+                >{/*mapping over ingredients array of cocktail object, new text element for each obj */}
+                  {cocktail.ingredients.map((ingredient, index) => (
+                    <Card.Text key={index}>
+                      {ingredient.quantity} {ingredient.unit}{" "}
+                      {ingredient.name}
+                    </Card.Text>
+                  ))}
+                </div>
+              </Card.Body>
             </Card>
           </Col>
         ))}
@@ -50,5 +72,6 @@ function Directory() {
     </Container>
   );
 }
+
 
 export default Directory;

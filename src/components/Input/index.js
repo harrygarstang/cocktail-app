@@ -1,60 +1,74 @@
-import React from "react";
-import "./style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Select from "react-select"; // need to install perhaps
+import React, { useState } from "react";
+import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 
-function Input() {
-    const fruitOptions = [
-        { value: "Strawberry", label: "Strawberry" },
-        { value: "Pineapple", label: "Pineapple" },
-        { value: "Coconut", label: "Coconut" },
-    ];
+const Input = () => {
 
-    const moodOptions = [
-        { value: "Excited", label: "Excited" },
-        { value: "Tired", label: "Tired" },
-        { value: "Meh", label: "Meh" },
-    ];
+    // using state hook to set initial values for the variables fruit, mood and astrological sign as an empty "" string.
+    const [fruit, setFruit] = useState("");
+    const [mood, setMood] = useState("");
+    const [astrologicalSign, setAstrologicalSign] = useState("");
 
-    const astrologicalOptions = [
-        { value: "Aries", label: "Aries" },
-        { value: "Taurus", label: "Taurus" },
-        { value: "Gemini", label: "Gemini" },
-        { value: "Cancer", label: "Cancer" },
-        { value: "Leo", label: "Leo" },
-        { value: "Virgo", label: "Virgo" },
-        { value: "Libra", label: "Libra" },
-        { value: "Scorpius", label: "Scorpius" },
-        { value: "Sagittarius", label: "Sagittarius" },
-        { value: "Capricornus", label: "Capricornus" },
-        { value: "Aquarius", label: "Aquarius" },
-        { value: "Pisces", label: "Pisces" },
-    ];
+    // handling the submit through a function calling recommendCocktail function and consoles.log the returned value.
+    // need to figure out how to make it draw the bootstrap card rather than the console.log for the final product 
+    const handleSubmit = () => {
+        const recommendedCocktail = recommendCocktail(fruit, mood, astrologicalSign);
+        console.log(recommendedCocktail);
+    };
+
 
     return (
-        <div
-            className="container flex-container"
-            style={{ width: "80%", margin: "auto" }}
-        >
-            <div className="flex-child-1">
-                <h2>Tell us a bit about yourself</h2>
-            </div>
-            <div className="flex-child-2">
-                <h3>What's your favourite fruit?</h3>
-                <span className="span-block">
-                    <Select options={fruitOptions} />
-                </span>
-                <h3>What's your mood today?</h3>
-                <span className="span-block">
-                    <Select options={moodOptions} />
-                </span>
-                <h3>What's your astrological sign?</h3>
-                <span className="span-block">
-                    <Select options={astrologicalOptions} />
-                </span>
-            </div>
+        <div>
+            {/* Contains the three questions of fruit, mood, and star sign */}
+            {/* whenever the select element changes, 'dropdownEvent' is triggered, so setFruit is invoked as a callback function whenenever the select item changes */}
+            {/* The state of the fruit variable is being changed with the setFruit function  */}
+
+            <select value={fruit} onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}>
+                <option value="">Select "fruit"</option>
+                <option value="lime">Lime</option>
+                <option value="cranberry">Cranberry</option>
+                <option value="orange">Orange</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="peach">Peach</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="mint">Mint</option>
+                <option value="lemon">Lemon</option>
+            </select>
+            {/* This is happening in the same way for every question using React State   */}
+            <select value={mood} onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}>
+                <option value="">Select mood</option>
+                <option value="happy">Happy</option>
+                <option value="sophisticated">Sophisticated</option>
+                <option value="nostalgic">Nostalgic</option>
+                <option value="excited">Excited</option>
+                <option value="angry">Fierce</option>
+                <option value="energetic">Energetic</option>
+                <option value="warm">Warm</option>
+                <option value="bold">Bold</option>
+                <option value="carefree">Care free</option>
+                <option value="introspective">Introspective</option>
+                <option value="tired">Tired</option>
+            </select>
+            <select
+                value={astrologicalSign}
+                onChange={(dropdownEvent) => setAstrologicalSign(dropdownEvent.target.value)}
+            >
+                <option value="">Select astrological sign</option>
+                <option value="Virgo">Virgo</option>
+                <option value="Libra">Libra</option>
+                <option value="Gemini">Gemini</option>
+                <option value="Leo">Leo</option>
+                <option value="Taurus">Taurus</option>
+                <option value="Scorpio">Scorpio</option>
+                <option value="Aries">Aries</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Pisces">Pisces</option>
+                <option value="Sagittarius">Sagittarius</option>
+                <option value="Aquarius">Aquarius</option>
+                <option value="Capricorn">Capricorn</option>
+            </select>
+            <button onClick={handleSubmit}>Find Cocktail</button>
         </div>
     );
-}
+};
 
 export default Input;

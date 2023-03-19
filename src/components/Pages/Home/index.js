@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
 import Input from "../../Input";
-import Hero from "../../Hero"
-
+import Hero from "../../Hero";
 
 function Home() {
   return (
@@ -12,5 +11,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

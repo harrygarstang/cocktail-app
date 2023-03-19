@@ -2,6 +2,9 @@
   "cocktails": [
     {
       "name": "Mojito",
+      "fruit": "lime",
+      "mood": "happy",
+      "astrologicalSign": "Gemini",
       "ingredients": [
         {
           "name": "lime juice",
@@ -35,6 +38,9 @@
     },
     {
       "name": "Cosmopolitan",
+      "fruit": "cranberry",
+      "mood": "sophisticated",
+      "astrologicalSign": "Libra",
       "ingredients": [
         {
           "name": "vodka",
@@ -67,6 +73,9 @@
     },
     {
       "name": "Old Fashioned",
+      "fruit": "orange",
+      "mood": "nostalgic",
+      "astrologicalSign": "Virgo",
       "ingredients": [
         {
           "name": "sugar cube",
@@ -99,6 +108,9 @@
     },
     {
       "name": "Piña Colada",
+      "fruit": "pineapple",
+      "mood": "excited",
+      "astrologicalSign": "Leo",
       "ingredients": [
         {
           "name": "white rum",
@@ -118,9 +130,12 @@
       ],
       "description": "Transport yourself to the tropics with an exotic Piña colada. This creamy rum cocktail is made with fresh coconut cream and sharp pineapple juice to create a perfectly balanced drink that'll remind you of your favourite summer holiday. Best served with a funky umbrella for eye-candy appeal.",
       "image": "pina-colada.jpg"
-  },
-  {
+    },
+    {
       "name": "Woo Woo",
+      "fruit": "peach",
+      "mood": "bombastic",
+      "astrologicalSign": "Taurus",
       "ingredients": [
         {
           "name": "vodka",
@@ -145,9 +160,12 @@
       ],
       "description": "Fresh, fruity and easy drinking, this classic 1980s cocktail features vodka, cranberry juice, peach schnapps and lime. It's made for summer sipping – preferably by the pool. It balances the sweetness of peach and cranberry with tart, zingy lime, making a simple and delicious tipple.",
       "image": "woowoo.jpg"
-  },
-  {
+    },
+    {
       "name": "Lava Flow Cocktail",
+      "fruit": "strawberry",
+      "mood": "angry",
+      "astrologicalSign": "Scorpio",
       "ingredients": [
         {
           "name": "light rum",
@@ -173,7 +191,8 @@
           "name": "pineapple juice",
           "quantity": 2,
           "unit": "oz"
-        },      {
+        },
+        {
           "name": "coconut cream",
           "quantity": 2,
           "unit": "oz"
@@ -181,6 +200,200 @@
       ],
       "description": "Made to resemble a real-life volcano, this creamy tropical cocktail slushy is chock-full of rum, strawberries, pineapple juice, and coconut. The lava flow effect involves blending the drink in two stages. Serve it in your favorite tiki glass for paradise in a cup from wherever you are.",
       "image": "lava-flow.jpg"
-  }
+    },
+    {
+      "name": "Mint Julep",
+      "fruit": "none",
+      "mood": "energetic",
+      "astrologicalSign": "Aries",
+      "ingredients": [
+        {
+          "name": "mint leaves",
+          "quantity": 8,
+          "unit": "leaves"
+        },
+        {
+          "name": "sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "water",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "crushed ice",
+          "quantity": "to fill",
+          "unit": "glass"
+        },
+        {
+          "name": "bourbon",
+          "quantity": 60,
+          "unit": "ml"
+        }
+      ],
+      "description": "The Mint Julep is a refreshing bourbon cocktail that is traditionally served at the Kentucky Derby. It is made by muddling mint leaves with sugar and water, then filling the glass with crushed ice and topping it off with bourbon.",
+      "image": "mint-julep.jpg"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "fruit": "orange",
+      "mood": "warm",
+      "astrologicalSign": "Cancer",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "orange juice",
+          "quantity": "to fill",
+          "unit": "glass"
+        },
+        {
+          "name": "grenadine",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "orange slice",
+          "quantity": "for garnish",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Tequila Sunrise is a bright, citrusy cocktail made with tequila, orange juice, and grenadine. The grenadine creates a beautiful sunrise effect in the glass, making it a visually stunning drink that's perfect for warm, sunny days.",
+      "image": "tequila-sunrise.jpg"
+    },
+    {
+      "name": "Whiskey Sour",
+      "fruit": "lemon",
+      "mood": "bold",
+      "astrologicalSign": "Sagittarius",
+      "ingredients": [
+        {
+          "name": "whiskey",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "simple syrup",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "egg white",
+          "quantity": 1
+        },
+        {
+          "name": "cherry",
+          "quantity": "for garnish",
+          "unit": "unit"
+        },
+        {
+          "name": "orange slice",
+          "quantity": "for garnish",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Whiskey Sour is a classic cocktail that combines the bold flavor of whiskey with the tangy taste of lemon juice and the sweetness of simple syrup. The optional addition of an egg white creates a smooth, frothy texture.",
+      "image": "whiskey-sour.jpg"
+    },
+    {
+      "name": "Daiquiri",
+      "fruit": "lime",
+      "mood": "carefree",
+      "astrologicalSign": "Pisces",
+      "ingredients": [
+        {
+          "name": "white rum",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lime juice",
+          "quantity": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "simple syrup",
+          "quantity": 15,
+          "unit": "ml"
+        }
+      ],
+      "description": "The Daiquiri is a classic, refreshing cocktail made with white rum, fresh lime juice, and simple syrup. Its simplicity allows the flavors of the rum and lime to shine, making it a perfect choice for a warm day or a relaxed evening.",
+      "image": "daiquiri.jpg"
+    },
+    {
+      "name": "Negroni",
+      "fruit": "orange",
+      "mood": "introspective",
+      "astrologicalSign": "Capricorn",
+      "ingredients": [
+        {
+          "name": "gin",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Campari",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "sweet vermouth",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "orange peel",
+          "quantity": "for garnish",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Negroni is a classic Italian cocktail that is both bitter and sweet, with a strong, complex flavor profile. Made with equal parts gin, Campari, and sweet vermouth, it is typically served on the rocks and garnished with an orange peel.",
+      "image": "negroni.jpg"
+    },
+    {
+      "name": "Espresso Martini",
+      "fruit": "none",
+      "mood": "tired",
+      "astrologicalSign": "Aquarius",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "name": "coffee liqueur",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "freshly brewed espresso",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "simple syrup",
+          "quantity": "to taste",
+          "unit": "unit"
+        },
+        {
+          "name": "coffee beans",
+          "quantity": "for garnish",
+          "unit": "unit"
+        }
+      ],
+      "description": "The Espresso Martini is a sophisticated, caffeinated cocktail that combines the bold flavors of vodka, coffee liqueur, and freshly brewed espresso. It is perfect for those who want an energizing, after-dinner drink that is both elegant and delicious.",
+      "image": "espresso.jpg"
+    }
   ]
 }
