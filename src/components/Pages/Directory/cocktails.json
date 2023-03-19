@@ -135,7 +135,7 @@
       "name": "Woo Woo",
       "fruit": "peach",
       "mood": "bombastic",
-      "astrologicalSign": "Libra",
+      "astrologicalSign": "Taurus",
       "ingredients": [
         {
           "name": "vodka",
@@ -363,7 +363,7 @@
     {
       "name": "Espresso Martini",
       "fruit": "none",
-      "mood": "energized",
+      "mood": "tired",
       "astrologicalSign": "Aquarius",
       "ingredients": [
         {
