@@ -2,18 +2,27 @@ import React, { useState } from "react";
 import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 
 const Input = () => {
+
+    // using state hook to set initial values for the variables fruit, mood and astrological sign as an empty "" string.
     const [fruit, setFruit] = useState("");
     const [mood, setMood] = useState("");
     const [astrologicalSign, setAstrologicalSign] = useState("");
 
+    // handling the submit through a function calling recommendCocktail function and consoles.log the returned value.
+    // need to figure out how to make it draw the bootstrap card rather than the console.log for the final product 
     const handleSubmit = () => {
         const recommendedCocktail = recommendCocktail(fruit, mood, astrologicalSign);
         console.log(recommendedCocktail);
     };
 
+
     return (
         <div>
-            <select value={fruit} onChange={(e) => setFruit(e.target.value)}>
+            {/* Contains the three questions of fruit, mood, and star sign */}
+            {/* whenever the select element changes, 'dropdownEvent' is triggered, so setFruit is invoked as a callback function whenenever the select item changes */}
+            {/* The state of the fruit variable is being changed with the setFruit function  */}
+
+            <select value={fruit} onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}>
                 <option value="">Select "fruit"</option>
                 <option value="lime">Lime</option>
                 <option value="cranberry">Cranberry</option>
@@ -24,7 +33,8 @@ const Input = () => {
                 <option value="mint">Mint</option>
                 <option value="lemon">Lemon</option>
             </select>
-            <select value={mood} onChange={(e) => setMood(e.target.value)}>
+            {/* This is happening in the same way for every question using React State   */}
+            <select value={mood} onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}>
                 <option value="">Select mood</option>
                 <option value="happy">Happy</option>
                 <option value="sophisticated">Sophisticated</option>
@@ -40,7 +50,7 @@ const Input = () => {
             </select>
             <select
                 value={astrologicalSign}
-                onChange={(e) => setAstrologicalSign(e.target.value)}
+                onChange={(dropdownEvent) => setAstrologicalSign(dropdownEvent.target.value)}
             >
                 <option value="">Select astrological sign</option>
                 <option value="Virgo">Virgo</option>

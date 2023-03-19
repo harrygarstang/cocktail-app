@@ -14,6 +14,9 @@ import mintjulepImg from "./images/mint-julep.jpg"
 import negroniImg from "./images/negroni.jpg"
 import tequilaImg from "./images/tequila-sunrise.jpg"
 import whiskeyImg from "./images/whiskey-sour.jpg"
+// This is an awkward work around having to import all the images individually, 
+// Room for future improvement here 
+
 // Creating an array of the images as a workaround so we can retain the JSON file rather than using require() 
 const images = {
   "mojito.jpg": mojitoImg,
@@ -53,9 +56,9 @@ function Directory() {
                     overflowY: "scroll",
                     paddingRight: "5px",
                   }}
-                >
-                  {cocktail.ingredients.map((ingredient, idx) => (
-                    <Card.Text key={idx}>
+                >{/*mapping over ingredients array of cocktail object, new text element for each obj */}
+                  {cocktail.ingredients.map((ingredient, index) => (
+                    <Card.Text key={index}>
                       {ingredient.quantity} {ingredient.unit}{" "}
                       {ingredient.name}
                     </Card.Text>
