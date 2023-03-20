@@ -6,7 +6,7 @@ import Hero from "../../Hero";
 function Home() {
   return (
     <div>
-      <h1 className="pageTitle">Cocktail Me</h1>
+      <h1 className="pageTitle">Cocktail Soulmate</h1>
       <Hero />
       <Input />
     </div>

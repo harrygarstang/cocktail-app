@@ -38,7 +38,7 @@ const Input = () => {
         value={fruit}
         onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}
       >
-        <option value="">Step 1: select "fruit"</option>
+        <option value="">Step 1: pick your fave fruit</option>
         <option value="lime">Lime</option>
         <option value="cranberry">Cranberry</option>
         <option value="orange">Orange</option>
@@ -54,7 +54,7 @@ const Input = () => {
         value={mood}
         onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}
       >
-        <option value="">Step 2: select "mood"</option>
+        <option value="">Step 2: pick your mood</option>
         <option value="happy">Happy</option>
         <option value="sophisticated">Sophisticated</option>
         <option value="nostalgic">Nostalgic</option>
@@ -74,7 +74,7 @@ const Input = () => {
           setAstrologicalSign(dropdownEvent.target.value)
         }
       >
-        <option value="">Step 3: select "star sign"</option>
+        <option value="">Step 3: pick you star sign</option>
         <option value="Virgo">Virgo</option>
         <option value="Libra">Libra</option>
         <option value="Gemini">Gemini</option>
