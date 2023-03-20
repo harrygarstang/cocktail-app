@@ -1,30 +1,30 @@
 import React, { useState } from "react";
 import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 import "./style.css";
+import images from "../Pages/Directory/index.js"
+import { Card } from "react-bootstrap";
+import CocktailCard from "./CocktailCard";
+
 
 const Input = () => {
   // using state hook to set initial values for the variables fruit, mood and astrological sign as an empty "" string.
   const [fruit, setFruit] = useState("");
   const [mood, setMood] = useState("");
   const [astrologicalSign, setAstrologicalSign] = useState("");
+  // using State to store cocktail 
+  const [recommendedCocktail, setRecommendedCocktail] = useState(null);
 
   // handling the submit through a function calling recommendCocktail function and consoles.log the returned value.
   // need to figure out how to make it draw the bootstrap card rather than the console.log for the final product
-   const handleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
-    const recommendedCocktail = 
-    recommendCocktail(
+    const recommendedCocktail = recommendCocktail(
       fruit,
       mood,
       astrologicalSign
     );
-    console.log(recommendedCocktail.name);
-    return (
-      <div>
-      { recommendedCocktail.name }
-      </div>
-    )
+    setRecommendedCocktail(recommendedCocktail);
   };
 
   return (
@@ -91,7 +91,8 @@ const Input = () => {
       <button className="submitButton" onClick={handleSubmit}>
         Cocktail me!
       </button>
-        
+      <CocktailCard cocktail={recommendedCocktail} />
+
     </div>
   );
 };
