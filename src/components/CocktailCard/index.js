@@ -2,11 +2,13 @@ import { Card } from "react-bootstrap";
 import React from 'react';
 import { images } from "../Pages/Directory";
 
+// If the `cocktail` object is falsy, return `null` to indicate that no component should be rendered.
+// This stops the user from being able to make a cocktail appear when they havent answered all of our questions 
 const CocktailCard = ({ cocktail }) => {
   if (!cocktail) {
     return null;
   }
-
+// rendering taken from the Directory rendering 
   return (
     <Card>
       <Card.Img src={images[cocktail.image]} />
