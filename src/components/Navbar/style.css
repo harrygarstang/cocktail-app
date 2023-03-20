@@ -1,3 +1,43 @@
-/* .nav, ul, li {
-    background-color: #ffd700 !important;
-} */
+.navigation {
+    background-color: #ff6b6b;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .nav-link:not(.active) {
+    color: #fff; /* Change this to the color you want */
+  }
+  
+  .nav-link:hover {
+    background-color: #8c54ff;
+    color: #fff;
+    border-radius: 30px;
+  }
+  
+  .nav-link.active {
+    background-color: #8c54ff;
+    border-radius: 30px;
+  }
+  
+  .nav1 .nav-link {
+    background-color: #ff6b6b;
+  }
+  
+  .nav2 .nav-link {
+    background-color: #ff7f50;
+  }
+  
+  .nav3 .nav-link {
+    background-color: #ff8c00;
+  }
