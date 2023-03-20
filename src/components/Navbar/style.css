@@ -1,43 +1,47 @@
-.navigation {
-    background-color: #ff6b6b;
-    height: 60px;
+.navbar {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar-logo {
+    color: #ff6b6b;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  
+  .navbar-menu {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
-  .nav-link {
+  .navbar-item {
+    margin: 0 20px;
+  }
+  
+  .navbar-link {
+    color: #333;
     font-size: 18px;
-    text-transform: uppercase;
-    padding: 15px;
+    font-weight: 500;
+    text-decoration: none;
     transition: all 0.3s ease-in-out;
-    font-family: 'Josefin Sans', sans-serif;
   }
   
-  .nav-link:not(.active) {
-    color: #fff; /* Change this to the color you want */
+  .navbar-link:hover {
+    color: #ff6b6b;
   }
   
-  .nav-link:hover {
-    background-color: #8c54ff;
-    color: #fff;
-    border-radius: 30px;
+  .navbar-link.active {
+    color: #ff6b6b;
+    border-bottom: 3px solid #ff6b6b;
   }
+  .pageTitle {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #ff3a00;
+}
   
-  .nav-link.active {
-    background-color: #8c54ff;
-    border-radius: 30px;
-  }
-  
-  .nav1 .nav-link {
-    background-color: #ff6b6b;
-  }
-  
-  .nav2 .nav-link {
-    background-color: #ff7f50;
-  }
-  
-  .nav3 .nav-link {
-    background-color: #ff8c00;
-  }
