@@ -75,3 +75,4 @@ function Directory() {
 
 
 export default Directory;
+export { images };
