@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
+import "./style.css";
 
 const Input = () => {
 
@@ -17,13 +18,13 @@ const Input = () => {
 
 
     return (
-        <div>
+        <div className="questionsDiv">
             {/* Contains the three questions of fruit, mood, and star sign */}
             {/* whenever the select element changes, 'dropdownEvent' is triggered, so setFruit is invoked as a callback function whenenever the select item changes */}
             {/* The state of the fruit variable is being changed with the setFruit function  */}
 
-            <select value={fruit} onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}>
-                <option value="">Select "fruit"</option>
+            <select className="input-area" value={fruit} onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}>
+                <option value="">Step 1: select "fruit"</option>
                 <option value="lime">Lime</option>
                 <option value="cranberry">Cranberry</option>
                 <option value="orange">Orange</option>
@@ -34,8 +35,8 @@ const Input = () => {
                 <option value="lemon">Lemon</option>
             </select>
             {/* This is happening in the same way for every question using React State   */}
-            <select value={mood} onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}>
-                <option value="">Select mood</option>
+            <select className="input-area" value={mood} onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}>
+                <option value="">Step 2: select "mood"</option>
                 <option value="happy">Happy</option>
                 <option value="sophisticated">Sophisticated</option>
                 <option value="nostalgic">Nostalgic</option>
@@ -49,10 +50,11 @@ const Input = () => {
                 <option value="tired">Tired</option>
             </select>
             <select
+                className="input-area"
                 value={astrologicalSign}
                 onChange={(dropdownEvent) => setAstrologicalSign(dropdownEvent.target.value)}
             >
-                <option value="">Select astrological sign</option>
+                <option value="">Step 3: select "star sign"</option>
                 <option value="Virgo">Virgo</option>
                 <option value="Libra">Libra</option>
                 <option value="Gemini">Gemini</option>
@@ -66,7 +68,7 @@ const Input = () => {
                 <option value="Aquarius">Aquarius</option>
                 <option value="Capricorn">Capricorn</option>
             </select>
-            <button onClick={handleSubmit}>Find Cocktail</button>
+            <button className="submitButton" onClick={handleSubmit}>Cocktail me!</button>
         </div>
     );
 };

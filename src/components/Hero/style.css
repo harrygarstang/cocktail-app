@@ -1,38 +1,50 @@
 .hero {
-    height: 500px;
-    background-image: "cocktailHero.png";
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  
-  .hero::after {
-    content: "";
-    display: block;
-    opacity: .4;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  height: 400px;
+  background-image: "cocktailHero.png";
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-  
-  .hero * {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .hero h1, .hero h2 {
-    color: white;
-  }
-  
-  .hero h1 {
-    font-size: 60px;
-    padding-top: 140px;
-    margin-top: 0;
-  }
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    180deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+}
+
+.hero * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  position: relative;
+}
+
+.heroH1 {
+  color: black;
+  font-size: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .type-text {
-  color: white;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: transparent !important;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

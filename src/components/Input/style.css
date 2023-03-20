@@ -1,20 +1,53 @@
 .flex-container {
-    display: flex;
-    display: block;
-    text-align: center;
-  }
-  
-  .flex-child-1 {
-    flex: 1;
-  }
-  
-  .flex-child-2 {
-    margin-right: 20px;
-    padding: 20px;
-  }
+  display: flex;
+  display: block;
+  text-align: center;
+}
 
-  .span-block {
-    width: 20px;
-  }
+.flex-child-1 {
+  flex: 1;
+}
 
-  
+.flex-child-2 {
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.span-block {
+  width: 20px;
+}
+
+.questionsDiv {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.input-area {
+  display: block;
+  text-align: center !important;
+  width: 400px;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  /* background-color: rgb(244, 216, 204); */
+  /* background-color: #89CFF0; */
+  background-color: #4B0082;
+  border-radius: 5px;
+  box-shadow: 4px 4px #ccc;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.submitButton {
+  background-color: #ff3a00;
+  color: white;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
