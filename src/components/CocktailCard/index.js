@@ -1,4 +1,6 @@
 import { Card } from "react-bootstrap";
+import React from 'react';
+import { images } from "../Pages/Directory";
 
 const CocktailCard = ({ cocktail }) => {
   if (!cocktail) {

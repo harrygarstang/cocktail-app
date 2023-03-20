@@ -3,7 +3,7 @@ import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 import "./style.css";
 import images from "../Pages/Directory/index.js"
 import { Card } from "react-bootstrap";
-import CocktailCard from "./CocktailCard";
+import CocktailCard from "../CocktailCard/index.js";
 
 
 const Input = () => {
