@@ -1,5 +1,6 @@
-* {
-    background-color: rgb(244, 216, 204);
-}
-
-
+body {
+    background-image: url("./cocktailHero.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
