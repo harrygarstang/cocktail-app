@@ -42,7 +42,7 @@ function Directory() {
             <Card>
               <Card.Img src={images[cocktail.image]} />
               <Card.ImgOverlay>
-                <Card.Title>{cocktail.name}</Card.Title>
+                <Card.Title className="cocktailTitle">{cocktail.name}</Card.Title>
               </Card.ImgOverlay>
               <Card.Body>
                 <Card.Text>{cocktail.description}</Card.Text>
