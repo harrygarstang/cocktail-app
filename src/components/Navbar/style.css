@@ -1,3 +1,47 @@
-/* .nav, ul, li {
-    background-color: #ffd700 !important;
-} */
+.navbar {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar-logo {
+    color: #ff6b6b;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 20px;
+  }
+  
+  .navbar-link {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    color: #ff6b6b;
+  }
+  
+  .navbar-link.active {
+    color: #ff6b6b;
+    border-bottom: 3px solid #ff6b6b;
+  }
+  .pageTitle {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #ff3a00;
+}
+  
