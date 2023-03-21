@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 import "./style.css";
 import CocktailCard from "../CocktailCard/index.js";
-import Match from "../Match";
+
 
 
 
@@ -25,6 +25,11 @@ const Input = () => {
     );
     setRecommendedCocktail(recommendedCocktail);
   };
+
+  const resetButton = (event) => {
+    event.preventDefault();
+    setRecommendedCocktail("");
+  }
 
   return (
     <div className="questionsDiv">
@@ -89,6 +94,9 @@ const Input = () => {
       </select>
       <button className="submitButton" onClick={handleSubmit}>
         Cocktail me!
+      </button>
+      <button className="resetButton" onClick={resetButton}>
+        Start again
       </button>
       <CocktailCard cocktail={recommendedCocktail}/>
     </div>
