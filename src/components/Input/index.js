@@ -90,7 +90,6 @@ const Input = () => {
       <button className="submitButton" onClick={handleSubmit}>
         Cocktail me!
       </button>
-      <Match />
       <CocktailCard cocktail={recommendedCocktail}/>
     </div>
   );
