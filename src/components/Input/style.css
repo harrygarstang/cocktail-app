@@ -49,4 +49,14 @@
   align-items: center;
   border-radius: 5px;
   padding: 10px;
+  margin: 5px;
+}
+
+.resetButton {
+  background-color: #89c4ff;
+  color: white;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
 }
