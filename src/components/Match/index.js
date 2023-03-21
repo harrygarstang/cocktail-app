@@ -1,14 +1,14 @@
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
 import "./style.css";
 
 class Match extends React.Component {
   render() {
     return (
       <div>
-        <Bounce left>
+        <Flip left>
           <h1 className="match">IT'S A MATCH!</h1>
-        </Bounce>
+        </Flip>
       </div>
     );
   }

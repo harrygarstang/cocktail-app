@@ -2,6 +2,7 @@ import { Card } from "react-bootstrap";
 import React from 'react';
 import { images } from "../Pages/Directory";
 import "./style.css";
+import Match from "../Match";
 
 
 // If the `cocktail` object is falsy, return `null` to indicate that no component should be rendered.
@@ -10,13 +11,15 @@ const CocktailCard = ({ cocktail }) => {
   if (!cocktail) {
     return null;
   }
+
 // rendering taken from the Directory rendering 
   return (
     <Card className="cocktail-card">
+      <Match />
       <Card.Img src={images[cocktail.image]} />
-      <Card.ImgOverlay>
+      {/* <Card.ImgOverlay> */}
         <Card.Title className="cocktailTitle">{cocktail.name}</Card.Title>
-      </Card.ImgOverlay>
+      {/* </Card.ImgOverlay> */}
       <Card.Body>
         <Card.Text>{cocktail.description}</Card.Text>
         <Card.Text className="mb-0">
