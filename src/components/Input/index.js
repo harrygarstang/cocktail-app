@@ -18,6 +18,10 @@ const Input = () => {
   // need to figure out how to make it draw the bootstrap card rather than the console.log for the final product
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (fruit === "" || mood === "" || astrologicalSign === "") {
+      return; 
+    } 
+
     const recommendedCocktail = recommendCocktail(
       fruit,
       mood,

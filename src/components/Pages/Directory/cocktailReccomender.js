@@ -5,12 +5,19 @@ import cocktailsData from './cocktails.json';
 // is the greatest weight. 
 // (This may need to be adjusted more because whichever is the most weight at the moment is very dominant)
 export const weights = {
-    fruit: 2,
+    fruit: 4,
     mood: 3,
     astrologicalSign: 1,
   };  
 
+
+
   export const recommendCocktail = (fruit, mood, astrologicalSign) => {
+
+    console.log(fruit)
+    console.log(mood)
+    console.log(astrologicalSign)
+
     let maxScore = -1;
     let recommendedCocktail = null;
   
