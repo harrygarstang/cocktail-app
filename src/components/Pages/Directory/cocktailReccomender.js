@@ -1,5 +1,6 @@
 import cocktailsData from './cocktails.json';
 
+
 // This is how the weighting is calculated, so here the highest number (here it is mood)
 // is the greatest weight. 
 // (This may need to be adjusted more because whichever is the most weight at the moment is very dominant)
@@ -39,6 +40,5 @@ export const weights = {
         recommendedCocktail = cocktail;
       }
     });
-  
     return recommendedCocktail;
   };

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { recommendCocktail } from "../Pages/Directory/cocktailReccomender";
 import "./style.css";
 import CocktailCard from "../CocktailCard/index.js";
+import Match from "../Match";
+
 
 
 const Input = () => {
@@ -90,7 +92,7 @@ const Input = () => {
         Cocktail me!
       </button>
       <CocktailCard cocktail={recommendedCocktail} />
-
+      <Match />
     </div>
   );
 };
