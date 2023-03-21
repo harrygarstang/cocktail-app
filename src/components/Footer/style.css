@@ -2,10 +2,12 @@
     background: 
     /* rgb(244, 216, 204); */
     #ff3a00;
-    height: 100px;
-    position: relative;
+    height: 50px;
+    position: fixed;
     color: white;
-    overflow: auto;
+    /* overflow: auto; */
+    width: 100%;
+    bottom: 0;
   }
   
   .footer > .bottom {
