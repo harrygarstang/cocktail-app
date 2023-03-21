@@ -18,7 +18,6 @@ const Input = () => {
   // need to figure out how to make it draw the bootstrap card rather than the console.log for the final product
   const handleSubmit = (event) => {
     event.preventDefault();
-
     const recommendedCocktail = recommendCocktail(
       fruit,
       mood,
@@ -38,7 +37,7 @@ const Input = () => {
         value={fruit}
         onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}
       >
-        <option value="">Step 1: pick your fave fruit</option>
+        <option value="">1: Pick your fave fruit</option>
         <option value="lime">Lime</option>
         <option value="cranberry">Cranberry</option>
         <option value="orange">Orange</option>
@@ -54,7 +53,7 @@ const Input = () => {
         value={mood}
         onChange={(dropdownEvent) => setMood(dropdownEvent.target.value)}
       >
-        <option value="">Step 2: pick your mood</option>
+        <option value="">2: Pick your mood</option>
         <option value="happy">Happy</option>
         <option value="sophisticated">Sophisticated</option>
         <option value="nostalgic">Nostalgic</option>
@@ -74,7 +73,7 @@ const Input = () => {
           setAstrologicalSign(dropdownEvent.target.value)
         }
       >
-        <option value="">Step 3: pick you star sign</option>
+        <option value="">3: Pick you star sign</option>
         <option value="Virgo">Virgo</option>
         <option value="Libra">Libra</option>
         <option value="Gemini">Gemini</option>
@@ -91,8 +90,8 @@ const Input = () => {
       <button className="submitButton" onClick={handleSubmit}>
         Cocktail me!
       </button>
-      <CocktailCard cocktail={recommendedCocktail} />
       <Match />
+      <CocktailCard cocktail={recommendedCocktail}/>
     </div>
   );
 };
