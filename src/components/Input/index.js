@@ -46,7 +46,7 @@ const Input = () => {
         value={fruit}
         onChange={(dropdownEvent) => setFruit(dropdownEvent.target.value)}
       >
-        <option value="">1: Pick your fave fruit</option>
+        <option value="">1: Pick your fruit</option>
         <option value="lime">Lime</option>
         <option value="cranberry">Cranberry</option>
         <option value="orange">Orange</option>
