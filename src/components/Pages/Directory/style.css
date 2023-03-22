@@ -61,3 +61,11 @@
   .cocktailTitle {
     background-color: transparent;
   }
+
+  .members {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+    padding: 20px;
+  }

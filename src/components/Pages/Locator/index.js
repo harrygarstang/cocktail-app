@@ -29,7 +29,7 @@ function Locator() {
     //returning JSX
     return (
         <div className="container">
-            <h1 className="text-center">Cocktail Bar Locator</h1>
+            <h1 className="text-center locator-h1">Cocktail Bar Locator</h1>
             <div className="input-group mb-3">
                 <input
                     type="text"

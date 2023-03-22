@@ -13,10 +13,10 @@ function Navbar() {
           <NavLink to="/" className="navbar-link">Home</NavLink>
         </li>
         <li className="navbar-item">
-          <NavLink to="/directory" className="navbar-link">Directory</NavLink>
+          <NavLink to="/directory" className="navbar-link">Browse</NavLink>
         </li>
         <li className="navbar-item">
-          <NavLink to="/locator" className="navbar-link">Locator</NavLink>
+          <NavLink to="/locator" className="navbar-link">Near you</NavLink>
         </li>
       </ul>
     </nav>

@@ -36,6 +36,7 @@ const images = {
 function Directory() {
   return (
     <Container className="mt-4">
+      <h1 className="members">Popular members</h1>
       <Row>
         {cocktailsData.cocktails.map((cocktail, index) => (
           <Col key={index} sm={12} md={6} lg={4} className="mb-4">
