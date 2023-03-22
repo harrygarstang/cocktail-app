@@ -54,7 +54,7 @@ function Locator() {
                                 className="card-img-top"
                                 src={
                                     bar.photos
-                                        ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${bar.photos[0].photo_reference}&key=API_KEY`
+                                        ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${bar.photos[0].photo_reference}&key=key`
                                         : "https://via.placeholder.com/150"
                                 }
                                 alt={bar.name}
