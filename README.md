@@ -53,7 +53,7 @@ This project is licensed by the Creative-Commons license.
 
 ## <a id="Contributing">Contributing:</a>
 
-We welcome contributions to this project! If you are interested in contributing, please send an email to [insert email address here]. We would love to hear from you and discuss potential ways to collaborate. Some ways you can contribute include fixing bugs, adding features, improving documentation, and writing tests. Please note that this project is released with a Creative Commons License, so all contributions must also be licensed under the same terms. We appreciate your interest in this project and look forward to hearing from you!
+We welcome contributions to this project! If you are interested in contributing, please contact us via GitHub. We would love to hear from you and discuss potential ways to collaborate. Some ways you can contribute include fixing bugs, adding features, improving documentation, and writing tests. Please note that this project is released with a Creative Commons License, so all contributions must also be licensed under the same terms. We appreciate your interest in this project and look forward to hearing from you!
 
 ## <a id="Questions">Questions:</a>
 For any questions, please reach out to any of the team that worked on this project via any of the channels listed below!
